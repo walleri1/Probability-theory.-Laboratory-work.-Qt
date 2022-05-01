@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/img" lang="ru">
+        <file>img/apple.png</file>
+        <file>img/GoogleEarth.png</file>
+        <file>img/lambda.png</file>
+        <file>img/period.png</file>
+        <file>img/cub.png</file>
+        <file>img/linux.png</file>
+        <file>img/naruto.png</file>
+        <file>img/I.jpg</file>
+        <file>img/Ball.png</file>
+        <file>img/Preppy.png</file>
+        <file>img/qt.png</file>
+        <file>img/half_life.png</file>
+        <file>img/logo.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,2134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1081</width>
+    <height>859</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Лабораторные работы по теории вероятности</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/img/img/logo.png</normaloff>:/img/img/logo.png</iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>50</width>
+    <height>50</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_24">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Первая лабораторная работа</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="QTabWidget" name="tabWidget_5">
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="tab_14">
+           <attribute name="icon">
+            <iconset resource="res.qrc">
+             <normaloff>:/img/img/cub.png</normaloff>:/img/img/cub.png</iconset>
+           </attribute>
+           <attribute name="title">
+            <string>&amp;Аддитивный алгоритм</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_3">
+            <item row="0" column="0">
+             <layout class="QVBoxLayout" name="verticalLayout">
+              <item>
+               <widget class="QLabel" name="label">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Аддитивный алгоритм</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QTabWidget" name="tabWidget_2">
+                <property name="currentIndex">
+                 <number>0</number>
+                </property>
+                <widget class="QWidget" name="tab_3">
+                 <attribute name="icon">
+                  <iconset resource="res.qrc">
+                   <normaloff>:/img/img/lambda.png</normaloff>:/img/img/lambda.png</iconset>
+                 </attribute>
+                 <attribute name="title">
+                  <string>Функция &amp;плотности</string>
+                 </attribute>
+                 <layout class="QGridLayout" name="gridLayout_4">
+                  <item row="0" column="0">
+                   <widget class="QCustomPlot" name="qcutomplotDensityeAdditive" native="true">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="tab_4">
+                 <attribute name="icon">
+                  <iconset resource="res.qrc">
+                   <normaloff>:/img/img/period.png</normaloff>:/img/img/period.png</iconset>
+                 </attribute>
+                 <attribute name="title">
+                  <string>Функция &amp;распределения</string>
+                 </attribute>
+                 <layout class="QGridLayout" name="gridLayout_5">
+                  <item row="0" column="0">
+                   <widget class="QCustomPlot" name="qcustomplotDistributionAdditive" native="true">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="tab_9">
+                 <attribute name="icon">
+                  <iconset resource="res.qrc">
+                   <normaloff>:/img/img/GoogleEarth.png</normaloff>:/img/img/GoogleEarth.png</iconset>
+                 </attribute>
+                 <attribute name="title">
+                  <string>&amp;Таблица полученных значений</string>
+                 </attribute>
+                 <layout class="QGridLayout" name="gridLayout_6">
+                  <item row="0" column="0">
+                   <widget class="QTableWidget" name="tableWidgetAdditive">
+                    <property name="editTriggers">
+                     <set>QAbstractItemView::NoEditTriggers</set>
+                    </property>
+                    <property name="columnCount">
+                     <number>7</number>
+                    </property>
+                    <attribute name="horizontalHeaderDefaultSectionSize">
+                     <number>200</number>
+                    </attribute>
+                    <attribute name="horizontalHeaderMinimumSectionSize">
+                     <number>40</number>
+                    </attribute>
+                    <column/>
+                    <column/>
+                    <column/>
+                    <column/>
+                    <column/>
+                    <column/>
+                    <column/>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="labelMatDispAdditive">
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Математическое ожидание:&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Дисперсия:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_12">
+           <attribute name="icon">
+            <iconset resource="res.qrc">
+             <normaloff>:/img/img/naruto.png</normaloff>:/img/img/naruto.png</iconset>
+           </attribute>
+           <attribute name="title">
+            <string>Конгру&amp;энтный алгоритм</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_13">
+            <item row="0" column="0">
+             <layout class="QVBoxLayout" name="verticalLayout_3">
+              <item>
+               <widget class="QLabel" name="label_2">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Конгруэнтный алгоритм</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QTabWidget" name="tabWidget_3">
+                <property name="currentIndex">
+                 <number>0</number>
+                </property>
+                <widget class="QWidget" name="tab_5">
+                 <attribute name="icon">
+                  <iconset resource="res.qrc">
+                   <normaloff>:/img/img/lambda.png</normaloff>:/img/img/lambda.png</iconset>
+                 </attribute>
+                 <attribute name="title">
+                  <string>Функция &amp;плотности</string>
+                 </attribute>
+                 <layout class="QGridLayout" name="gridLayout_9">
+                  <item row="0" column="0">
+                   <widget class="QCustomPlot" name="qcutomplotDensityeCongruent" native="true">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="tab_6">
+                 <attribute name="icon">
+                  <iconset resource="res.qrc">
+                   <normaloff>:/img/img/period.png</normaloff>:/img/img/period.png</iconset>
+                 </attribute>
+                 <attribute name="title">
+                  <string>Функция &amp;распределения</string>
+                 </attribute>
+                 <layout class="QGridLayout" name="gridLayout_12">
+                  <item row="0" column="0">
+                   <widget class="QCustomPlot" name="qcustomplotDistributionCongruent" native="true">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="tab_11">
+                 <attribute name="icon">
+                  <iconset resource="res.qrc">
+                   <normaloff>:/img/img/GoogleEarth.png</normaloff>:/img/img/GoogleEarth.png</iconset>
+                 </attribute>
+                 <attribute name="title">
+                  <string>&amp;Таблица полученных значений</string>
+                 </attribute>
+                 <layout class="QGridLayout" name="gridLayout_7">
+                  <item row="0" column="0">
+                   <widget class="QTableWidget" name="tableWidgetCongruent">
+                    <property name="editTriggers">
+                     <set>QAbstractItemView::NoEditTriggers</set>
+                    </property>
+                    <property name="columnCount">
+                     <number>7</number>
+                    </property>
+                    <attribute name="horizontalHeaderDefaultSectionSize">
+                     <number>200</number>
+                    </attribute>
+                    <attribute name="horizontalHeaderMinimumSectionSize">
+                     <number>40</number>
+                    </attribute>
+                    <column/>
+                    <column/>
+                    <column/>
+                    <column/>
+                    <column/>
+                    <column/>
+                    <column/>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="labelMatDispCongruent">
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Математическое ожидание:&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Дисперсия:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_13">
+           <attribute name="icon">
+            <iconset resource="res.qrc">
+             <normaloff>:/img/img/linux.png</normaloff>:/img/img/linux.png</iconset>
+           </attribute>
+           <attribute name="title">
+            <string>&amp;Усовершенствованный конгруэнтный алгоритм</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_14">
+            <item row="0" column="0">
+             <layout class="QVBoxLayout" name="verticalLayout_2">
+              <item>
+               <widget class="QLabel" name="label_3">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Усовершенствованный конгруэнтный алгоритм</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QTabWidget" name="tabWidget_4">
+                <property name="currentIndex">
+                 <number>0</number>
+                </property>
+                <widget class="QWidget" name="tab_7">
+                 <attribute name="icon">
+                  <iconset resource="res.qrc">
+                   <normaloff>:/img/img/lambda.png</normaloff>:/img/img/lambda.png</iconset>
+                 </attribute>
+                 <attribute name="title">
+                  <string>Функция &amp;плотности</string>
+                 </attribute>
+                 <layout class="QGridLayout" name="gridLayout_10">
+                  <item row="0" column="0">
+                   <widget class="QCustomPlot" name="qcutomplotDensityeAdvancedCongruent" native="true">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="tab_8">
+                 <attribute name="icon">
+                  <iconset resource="res.qrc">
+                   <normaloff>:/img/img/period.png</normaloff>:/img/img/period.png</iconset>
+                 </attribute>
+                 <attribute name="title">
+                  <string>Функция &amp;распределения</string>
+                 </attribute>
+                 <layout class="QGridLayout" name="gridLayout_11">
+                  <item row="0" column="0">
+                   <widget class="QCustomPlot" name="qcustomplotDistributionAdvancedCongruent" native="true">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="tab_10">
+                 <attribute name="icon">
+                  <iconset resource="res.qrc">
+                   <normaloff>:/img/img/GoogleEarth.png</normaloff>:/img/img/GoogleEarth.png</iconset>
+                 </attribute>
+                 <attribute name="title">
+                  <string>&amp;Таблица полученных значений</string>
+                 </attribute>
+                 <layout class="QGridLayout" name="gridLayout_8">
+                  <item row="0" column="0">
+                   <widget class="QTableWidget" name="tableWidgetAdvancedCongruent">
+                    <property name="editTriggers">
+                     <set>QAbstractItemView::NoEditTriggers</set>
+                    </property>
+                    <property name="columnCount">
+                     <number>7</number>
+                    </property>
+                    <attribute name="horizontalHeaderDefaultSectionSize">
+                     <number>200</number>
+                    </attribute>
+                    <attribute name="horizontalHeaderMinimumSectionSize">
+                     <number>40</number>
+                    </attribute>
+                    <column/>
+                    <column/>
+                    <column/>
+                    <column/>
+                    <column/>
+                    <column/>
+                    <column/>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="labelMatDispAdvancedCongruent">
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Математическое ожидание:&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Дисперсия:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetMinimumSize</enum>
+          </property>
+          <item>
+           <widget class="QGroupBox" name="groupBox">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="title">
+             <string>Общая панель управления</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_2">
+             <item row="2" column="0">
+              <layout class="QVBoxLayout" name="verticalLayout_4">
+               <item>
+                <widget class="QLabel" name="label_12">
+                 <property name="font">
+                  <font>
+                   <pointsize>11</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Максимальные степени(порядки) моментов</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <layout class="QFormLayout" name="formLayout_2">
+                 <item row="0" column="0">
+                  <widget class="QLabel" name="label_13">
+                   <property name="font">
+                    <font>
+                     <pointsize>11</pointsize>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Для начальных моментов:</string>
+                   </property>
+                   <property name="buddy">
+                    <cstring>spinBoxMaxPowerBeginMoment</cstring>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="1">
+                  <widget class="QSpinBox" name="spinBoxMaxPowerBeginMoment">
+                   <property name="font">
+                    <font>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="minimum">
+                    <number>1</number>
+                   </property>
+                   <property name="maximum">
+                    <number>1000000000</number>
+                   </property>
+                   <property name="value">
+                    <number>4</number>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="0">
+                  <widget class="QLabel" name="label_14">
+                   <property name="font">
+                    <font>
+                     <pointsize>11</pointsize>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Для центральных моментов:</string>
+                   </property>
+                   <property name="buddy">
+                    <cstring>spinBoxMaxPowerCentralMoment</cstring>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="1">
+                  <widget class="QSpinBox" name="spinBoxMaxPowerCentralMoment">
+                   <property name="font">
+                    <font>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="minimum">
+                    <number>2</number>
+                   </property>
+                   <property name="maximum">
+                    <number>1000000000</number>
+                   </property>
+                   <property name="value">
+                    <number>4</number>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item row="1" column="0">
+              <layout class="QVBoxLayout" name="verticalLayout_5">
+               <item>
+                <widget class="QLabel" name="label_5">
+                 <property name="font">
+                  <font>
+                   <pointsize>11</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Диапозон значений</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_2">
+                 <item>
+                  <widget class="QLabel" name="label_6">
+                   <property name="font">
+                    <font>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Величина A(&amp;начало):</string>
+                   </property>
+                   <property name="buddy">
+                    <cstring>doubleSpinBoxValueBegin</cstring>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QDoubleSpinBox" name="doubleSpinBoxValueBegin">
+                   <property name="font">
+                    <font>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="decimals">
+                    <number>1</number>
+                   </property>
+                   <property name="minimum">
+                    <double>-10000.000000000000000</double>
+                   </property>
+                   <property name="maximum">
+                    <double>10000.000000000000000</double>
+                   </property>
+                   <property name="singleStep">
+                    <double>0.500000000000000</double>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_3">
+                 <item>
+                  <widget class="QLabel" name="label_7">
+                   <property name="font">
+                    <font>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Величина B(&amp;конец):</string>
+                   </property>
+                   <property name="buddy">
+                    <cstring>doubleSpinBoxValueEnd</cstring>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QDoubleSpinBox" name="doubleSpinBoxValueEnd">
+                   <property name="font">
+                    <font>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="decimals">
+                    <number>1</number>
+                   </property>
+                   <property name="minimum">
+                    <double>-10000.000000000000000</double>
+                   </property>
+                   <property name="maximum">
+                    <double>10000.000000000000000</double>
+                   </property>
+                   <property name="singleStep">
+                    <double>0.500000000000000</double>
+                   </property>
+                   <property name="value">
+                    <double>1.000000000000000</double>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item row="0" column="0">
+              <layout class="QHBoxLayout" name="horizontalLayout">
+               <item>
+                <widget class="QLabel" name="label_4">
+                 <property name="font">
+                  <font>
+                   <pointsize>12</pointsize>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&amp;Количество случайных величин:</string>
+                 </property>
+                 <property name="buddy">
+                  <cstring>spinBoxValueN</cstring>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="spinBoxValueN">
+                 <property name="font">
+                  <font>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="minimum">
+                  <number>10</number>
+                 </property>
+                 <property name="maximum">
+                  <number>1000000</number>
+                 </property>
+                 <property name="value">
+                  <number>10</number>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_2">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="title">
+             <string>Дополнительные параметры для УКА</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_15">
+             <item row="0" column="0">
+              <layout class="QFormLayout" name="formLayout">
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_8">
+                 <property name="font">
+                  <font>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Величина &amp;A:</string>
+                 </property>
+                 <property name="buddy">
+                  <cstring>spinBoxValueA</cstring>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QSpinBox" name="spinBoxValueA">
+                 <property name="font">
+                  <font>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="minimum">
+                  <number>-999999999</number>
+                 </property>
+                 <property name="maximum">
+                  <number>999999999</number>
+                 </property>
+                 <property name="value">
+                  <number>171</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_9">
+                 <property name="font">
+                  <font>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Величина &amp;B:</string>
+                 </property>
+                 <property name="buddy">
+                  <cstring>spinBoxValueB</cstring>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QSpinBox" name="spinBoxValueB">
+                 <property name="font">
+                  <font>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="minimum">
+                  <number>-999999999</number>
+                 </property>
+                 <property name="maximum">
+                  <number>999999999</number>
+                 </property>
+                 <property name="value">
+                  <number>177</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_10">
+                 <property name="font">
+                  <font>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Величина &amp;C:</string>
+                 </property>
+                 <property name="buddy">
+                  <cstring>spinBoxValueC</cstring>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QSpinBox" name="spinBoxValueC">
+                 <property name="font">
+                  <font>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="minimum">
+                  <number>-999999999</number>
+                 </property>
+                 <property name="maximum">
+                  <number>999999999</number>
+                 </property>
+                 <property name="value">
+                  <number>2</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QLabel" name="label_11">
+                 <property name="font">
+                  <font>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Величина &amp;D:</string>
+                 </property>
+                 <property name="buddy">
+                  <cstring>spinBoxValueD</cstring>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="1">
+                <widget class="QSpinBox" name="spinBoxValueD">
+                 <property name="font">
+                  <font>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="minimum">
+                  <number>-999999999</number>
+                 </property>
+                 <property name="maximum">
+                  <number>999999999</number>
+                 </property>
+                 <property name="value">
+                  <number>30269</number>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Вторая лабораторная работа</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_9">
+        <item>
+         <widget class="QTabWidget" name="tabWidget_6">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="tab_15">
+           <attribute name="icon">
+            <iconset resource="res.qrc">
+             <normaloff>:/img/img/linux.png</normaloff>:/img/img/linux.png</iconset>
+           </attribute>
+           <attribute name="title">
+            <string>Первый алгоритм</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_16">
+            <item row="0" column="0">
+             <layout class="QVBoxLayout" name="verticalLayout_8">
+              <item>
+               <widget class="QLabel" name="label_16">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Первый алгоритм</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QTabWidget" name="tabWidget_7">
+                <property name="currentIndex">
+                 <number>0</number>
+                </property>
+                <widget class="QWidget" name="tab_17">
+                 <attribute name="icon">
+                  <iconset resource="res.qrc">
+                   <normaloff>:/img/img/lambda.png</normaloff>:/img/img/lambda.png</iconset>
+                 </attribute>
+                 <attribute name="title">
+                  <string>Функция плотности</string>
+                 </attribute>
+                 <layout class="QGridLayout" name="gridLayout_21">
+                  <item row="0" column="0">
+                   <widget class="QCustomPlot" name="qcutomplotDensityeOneAlgoritm" native="true">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="tab_18">
+                 <attribute name="icon">
+                  <iconset resource="res.qrc">
+                   <normaloff>:/img/img/period.png</normaloff>:/img/img/period.png</iconset>
+                 </attribute>
+                 <attribute name="title">
+                  <string>Функция распределения</string>
+                 </attribute>
+                 <layout class="QGridLayout" name="gridLayout_22">
+                  <item row="0" column="0">
+                   <widget class="QCustomPlot" name="qcustomplotDistributionOneAlgoritm" native="true">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="tab_19">
+                 <attribute name="icon">
+                  <iconset resource="res.qrc">
+                   <normaloff>:/img/img/GoogleEarth.png</normaloff>:/img/img/GoogleEarth.png</iconset>
+                 </attribute>
+                 <attribute name="title">
+                  <string>Таблица полученных значений</string>
+                 </attribute>
+                 <layout class="QGridLayout" name="gridLayout_23">
+                  <item row="0" column="0">
+                   <widget class="QTableWidget" name="tableWidgetOneAlgoritm">
+                    <property name="editTriggers">
+                     <set>QAbstractItemView::NoEditTriggers</set>
+                    </property>
+                    <property name="columnCount">
+                     <number>7</number>
+                    </property>
+                    <attribute name="horizontalHeaderDefaultSectionSize">
+                     <number>200</number>
+                    </attribute>
+                    <attribute name="horizontalHeaderMinimumSectionSize">
+                     <number>40</number>
+                    </attribute>
+                    <column/>
+                    <column/>
+                    <column/>
+                    <column/>
+                    <column/>
+                    <column/>
+                    <column/>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="labelMatDispOneAlgoritm">
+                <property name="enabled">
+                 <bool>true</bool>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Математическое ожидание:&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Дисперсия:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_16">
+           <attribute name="icon">
+            <iconset resource="res.qrc">
+             <normaloff>:/img/img/naruto.png</normaloff>:/img/img/naruto.png</iconset>
+           </attribute>
+           <attribute name="title">
+            <string>Второй алгоритм</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_20">
+            <item row="0" column="0">
+             <layout class="QVBoxLayout" name="verticalLayout_7">
+              <item>
+               <widget class="QLabel" name="label_17">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Второй алгоритм</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QTabWidget" name="tabWidget_8">
+                <property name="currentIndex">
+                 <number>0</number>
+                </property>
+                <widget class="QWidget" name="tab_20">
+                 <attribute name="icon">
+                  <iconset resource="res.qrc">
+                   <normaloff>:/img/img/lambda.png</normaloff>:/img/img/lambda.png</iconset>
+                 </attribute>
+                 <attribute name="title">
+                  <string>Функция плотности</string>
+                 </attribute>
+                 <layout class="QGridLayout" name="gridLayout_17">
+                  <item row="0" column="0">
+                   <widget class="QCustomPlot" name="qcutomplotDensityeTwoAlgoritm" native="true">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="tab_21">
+                 <attribute name="icon">
+                  <iconset resource="res.qrc">
+                   <normaloff>:/img/img/period.png</normaloff>:/img/img/period.png</iconset>
+                 </attribute>
+                 <attribute name="title">
+                  <string>Функция распределения</string>
+                 </attribute>
+                 <layout class="QGridLayout" name="gridLayout_18">
+                  <item row="0" column="0">
+                   <widget class="QCustomPlot" name="qcustomplotDistributionTwoAlgoritm" native="true">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="tab_22">
+                 <attribute name="icon">
+                  <iconset resource="res.qrc">
+                   <normaloff>:/img/img/GoogleEarth.png</normaloff>:/img/img/GoogleEarth.png</iconset>
+                 </attribute>
+                 <attribute name="title">
+                  <string>Таблица полученных значений</string>
+                 </attribute>
+                 <layout class="QGridLayout" name="gridLayout_19">
+                  <item row="0" column="0">
+                   <widget class="QTableWidget" name="tableWidgetTwoAlgoritm">
+                    <property name="editTriggers">
+                     <set>QAbstractItemView::NoEditTriggers</set>
+                    </property>
+                    <property name="columnCount">
+                     <number>7</number>
+                    </property>
+                    <attribute name="horizontalHeaderDefaultSectionSize">
+                     <number>200</number>
+                    </attribute>
+                    <attribute name="horizontalHeaderMinimumSectionSize">
+                     <number>40</number>
+                    </attribute>
+                    <column/>
+                    <column/>
+                    <column/>
+                    <column/>
+                    <column/>
+                    <column/>
+                    <column/>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="labelMatDispTwoAlgoritm">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Математическое ожидание:&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Дисперсия:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <item>
+           <widget class="QGroupBox" name="groupBox_3">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="title">
+             <string>Общая панель управления</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout">
+             <item row="0" column="0">
+              <layout class="QHBoxLayout" name="horizontalLayout_5">
+               <item>
+                <widget class="QLabel" name="label_15">
+                 <property name="font">
+                  <font>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Количество случайных величин:</string>
+                 </property>
+                 <property name="buddy">
+                  <cstring>spinBoxValueNTwoLaba</cstring>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="spinBoxValueNTwoLaba">
+                 <property name="font">
+                  <font>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="minimum">
+                  <number>10</number>
+                 </property>
+                 <property name="maximum">
+                  <number>1000000</number>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="1" column="0">
+              <layout class="QVBoxLayout" name="verticalLayout_10">
+               <item>
+                <widget class="QLabel" name="label_18">
+                 <property name="font">
+                  <font>
+                   <pointsize>11</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Максимальные степени(порядки) моментов</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <layout class="QFormLayout" name="formLayout_3">
+                 <item row="0" column="0">
+                  <widget class="QLabel" name="label_19">
+                   <property name="font">
+                    <font>
+                     <pointsize>12</pointsize>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Для начальных моментов:</string>
+                   </property>
+                   <property name="buddy">
+                    <cstring>spinBoxMaxPowerBeginMoment</cstring>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="1">
+                  <widget class="QSpinBox" name="spinBoxMaxPowerBeginMomentTwoLaba">
+                   <property name="font">
+                    <font>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="minimum">
+                    <number>1</number>
+                   </property>
+                   <property name="maximum">
+                    <number>1000000000</number>
+                   </property>
+                   <property name="value">
+                    <number>4</number>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="0">
+                  <widget class="QLabel" name="label_20">
+                   <property name="font">
+                    <font>
+                     <pointsize>12</pointsize>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Для центральных моментов:</string>
+                   </property>
+                   <property name="buddy">
+                    <cstring>spinBoxMaxPowerCentralMoment</cstring>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="1">
+                  <widget class="QSpinBox" name="spinBoxMaxPowerCentralMomentTwoLaba">
+                   <property name="font">
+                    <font>
+                     <weight>50</weight>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="minimum">
+                    <number>2</number>
+                   </property>
+                   <property name="maximum">
+                    <number>1000000000</number>
+                   </property>
+                   <property name="value">
+                    <number>4</number>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBoxSpecBlock">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="title">
+             <string>Дополнительные параметры равномерного распределения</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="checkable">
+             <bool>false</bool>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_25">
+             <item row="0" column="0">
+              <layout class="QFormLayout" name="formLayout_4">
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_21">
+                 <property name="font">
+                  <font>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Математическое ожидание:</string>
+                 </property>
+                 <property name="buddy">
+                  <cstring>doubleSpinBoxMat</cstring>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QDoubleSpinBox" name="doubleSpinBoxMat">
+                 <property name="font">
+                  <font>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="singleStep">
+                  <double>0.010000000000000</double>
+                 </property>
+                 <property name="value">
+                  <double>0.500000000000000</double>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="1" column="0">
+              <layout class="QFormLayout" name="formLayout_5">
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_22">
+                 <property name="font">
+                  <font>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Дисперсия:</string>
+                 </property>
+                 <property name="buddy">
+                  <cstring>doubleSpinBoxDisp</cstring>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QDoubleSpinBox" name="doubleSpinBoxDisp">
+                 <property name="font">
+                  <font>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="prefix">
+                  <string/>
+                 </property>
+                 <property name="suffix">
+                  <string/>
+                 </property>
+                 <property name="decimals">
+                  <number>10</number>
+                 </property>
+                 <property name="singleStep">
+                  <double>0.000001000000000</double>
+                 </property>
+                 <property name="value">
+                  <double>0.080000000000000</double>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_23">
+       <attribute name="icon">
+        <iconset resource="res.qrc">
+         <normaloff>:/img/img/half_life.png</normaloff>:/img/img/half_life.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Экспоненциальное распределение</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_14">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_11">
+          <item>
+           <widget class="QLabel" name="label_23">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Экспоненциальное распределение</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTabWidget" name="tabWidget_9">
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <widget class="QWidget" name="tab_24">
+             <attribute name="icon">
+              <iconset resource="res.qrc">
+               <normaloff>:/img/img/lambda.png</normaloff>:/img/img/lambda.png</iconset>
+             </attribute>
+             <attribute name="title">
+              <string>Функция плотности</string>
+             </attribute>
+             <layout class="QGridLayout" name="gridLayout_26">
+              <item row="0" column="0">
+               <widget class="QCustomPlot" name="qcutomplotDensityeExponential" native="true">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="tab_25">
+             <attribute name="icon">
+              <iconset resource="res.qrc">
+               <normaloff>:/img/img/period.png</normaloff>:/img/img/period.png</iconset>
+             </attribute>
+             <attribute name="title">
+              <string>Функция распределения</string>
+             </attribute>
+             <layout class="QGridLayout" name="gridLayout_27">
+              <item row="0" column="0">
+               <widget class="QCustomPlot" name="qcustomplotDistributionExponential" native="true">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="tab_26">
+             <attribute name="icon">
+              <iconset resource="res.qrc">
+               <normaloff>:/img/img/GoogleEarth.png</normaloff>:/img/img/GoogleEarth.png</iconset>
+             </attribute>
+             <attribute name="title">
+              <string>Таблица полученных значений</string>
+             </attribute>
+             <layout class="QGridLayout" name="gridLayout_28">
+              <item row="0" column="0">
+               <widget class="QTableWidget" name="tableWidgetExponential">
+                <property name="editTriggers">
+                 <set>QAbstractItemView::NoEditTriggers</set>
+                </property>
+                <property name="columnCount">
+                 <number>7</number>
+                </property>
+                <attribute name="horizontalHeaderDefaultSectionSize">
+                 <number>200</number>
+                </attribute>
+                <attribute name="horizontalHeaderMinimumSectionSize">
+                 <number>40</number>
+                </attribute>
+                <column/>
+                <column/>
+                <column/>
+                <column/>
+                <column/>
+                <column/>
+                <column/>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="labelMatDispExponential">
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Математическое ожидание:&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Дисперсия:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_4">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="title">
+           <string>Общая панель управления</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_29">
+           <item row="2" column="0">
+            <layout class="QVBoxLayout" name="verticalLayout_13">
+             <item>
+              <widget class="QLabel" name="label_28">
+               <property name="text">
+                <string>Параметр для экспоненциального рапсределения:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QFormLayout" name="formLayout_7">
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_29">
+                 <property name="font">
+                  <font>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial,Helvetica,sans-serif'; font-size:18px; font-weight:600; color:#333333; background-color:#f3f1ed;&quot;&gt;Параметр λ:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="buddy">
+                  <cstring>doubleSpinBoxLambda</cstring>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QDoubleSpinBox" name="doubleSpinBoxLambda">
+                 <property name="font">
+                  <font>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="decimals">
+                  <number>1</number>
+                 </property>
+                 <property name="maximum">
+                  <double>1000.000000000000000</double>
+                 </property>
+                 <property name="singleStep">
+                  <double>0.100000000000000</double>
+                 </property>
+                 <property name="value">
+                  <double>2.000000000000000</double>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+           <item row="0" column="0">
+            <layout class="QHBoxLayout" name="horizontalLayout_7">
+             <item>
+              <widget class="QLabel" name="label_24">
+               <property name="font">
+                <font>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Количество случайных величин:</string>
+               </property>
+               <property name="buddy">
+                <cstring>spinBoxValueNFiveLaba</cstring>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="spinBoxValueNFiveLaba">
+               <property name="font">
+                <font>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="minimum">
+                <number>10</number>
+               </property>
+               <property name="maximum">
+                <number>1000000</number>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="1" column="0">
+            <layout class="QVBoxLayout" name="verticalLayout_12">
+             <item>
+              <widget class="QLabel" name="label_25">
+               <property name="font">
+                <font>
+                 <pointsize>11</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Максимальные степени(порядки) моментов</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QFormLayout" name="formLayout_6">
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_26">
+                 <property name="font">
+                  <font>
+                   <pointsize>12</pointsize>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Для начальных моментов:</string>
+                 </property>
+                 <property name="buddy">
+                  <cstring>spinBoxMaxPowerBeginMoment</cstring>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QSpinBox" name="spinBoxMaxPowerBeginMomentFiveLaba">
+                 <property name="font">
+                  <font>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="minimum">
+                  <number>1</number>
+                 </property>
+                 <property name="maximum">
+                  <number>1000000000</number>
+                 </property>
+                 <property name="value">
+                  <number>4</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_27">
+                 <property name="font">
+                  <font>
+                   <pointsize>12</pointsize>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Для центральных моментов:</string>
+                 </property>
+                 <property name="buddy">
+                  <cstring>spinBoxMaxPowerCentralMoment</cstring>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QSpinBox" name="spinBoxMaxPowerCentralMomentFiveLaba">
+                 <property name="font">
+                  <font>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="minimum">
+                  <number>2</number>
+                 </property>
+                 <property name="maximum">
+                  <number>1000000000</number>
+                 </property>
+                 <property name="value">
+                  <number>4</number>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+           <item row="0" column="1">
+            <spacer name="horizontalSpacer_3">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1081</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Справка</string>
+    </property>
+    <addaction name="action_autor"/>
+    <addaction name="action_Qt"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="allowedAreas">
+    <set>Qt::LeftToolBarArea|Qt::RightToolBarArea</set>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_Qt"/>
+   <addaction name="action_autor"/>
+   <addaction name="action_generate"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_autor">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/img/img/Preppy.png</normaloff>:/img/img/Preppy.png</iconset>
+   </property>
+   <property name="text">
+    <string>Об авторе</string>
+   </property>
+  </action>
+  <action name="action_Qt">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/img/img/qt.png</normaloff>:/img/img/qt.png</iconset>
+   </property>
+   <property name="text">
+    <string>Об Qt</string>
+   </property>
+  </action>
+  <action name="action_generate">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/img/img/Ball.png</normaloff>:/img/img/Ball.png</iconset>
+   </property>
+   <property name="text">
+    <string>Генерировать</string>
+   </property>
+   <property name="toolTip">
+    <string>Генерировать</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>spinBoxValueN</tabstop>
+  <tabstop>doubleSpinBoxValueBegin</tabstop>
+  <tabstop>doubleSpinBoxValueEnd</tabstop>
+  <tabstop>spinBoxMaxPowerBeginMoment</tabstop>
+  <tabstop>spinBoxMaxPowerCentralMoment</tabstop>
+  <tabstop>spinBoxValueA</tabstop>
+  <tabstop>spinBoxValueB</tabstop>
+  <tabstop>spinBoxValueC</tabstop>
+  <tabstop>spinBoxValueD</tabstop>
+  <tabstop>tabWidget_5</tabstop>
+  <tabstop>tabWidget_2</tabstop>
+  <tabstop>tabWidget_4</tabstop>
+  <tabstop>tableWidgetAdditive</tabstop>
+  <tabstop>tableWidgetAdvancedCongruent</tabstop>
+  <tabstop>tableWidgetCongruent</tabstop>
+  <tabstop>tabWidget_3</tabstop>
+ </tabstops>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>spinBoxValueN</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>updateData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>374</x>
+     <y>508</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>433</x>
+     <y>651</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBoxValueBegin</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>updateData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>373</x>
+     <y>566</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>511</x>
+     <y>648</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBoxValueEnd</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>updateData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>373</x>
+     <y>599</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>602</x>
+     <y>649</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBoxValueA</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>updateData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1046</x>
+     <y>508</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>711</x>
+     <y>650</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBoxValueB</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>updateData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1046</x>
+     <y>539</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>731</x>
+     <y>645</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBoxValueC</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>updateData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1046</x>
+     <y>570</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>879</x>
+     <y>646</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBoxValueD</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>updateData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1046</x>
+     <y>601</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>955</x>
+     <y>649</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBoxMaxPowerBeginMoment</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>updateData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>373</x>
+     <y>658</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>322</x>
+     <y>715</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBoxMaxPowerCentralMoment</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>updateData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>373</x>
+     <y>689</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>426</x>
+     <y>714</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBoxValueNTwoLaba</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>updateData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>374</x>
+     <y>600</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>710</x>
+     <y>753</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBoxMaxPowerBeginMomentTwoLaba</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>updateData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>373</x>
+     <y>658</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>795</x>
+     <y>758</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBoxMaxPowerCentralMomentTwoLaba</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>updateData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>373</x>
+     <y>689</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>899</x>
+     <y>757</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBoxMat</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>updateData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>761</x>
+     <y>591</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1001</x>
+     <y>757</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBoxDisp</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>updateData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>699</x>
+     <y>649</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>982</x>
+     <y>758</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBoxValueNFiveLaba</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>updateData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>323</x>
+     <y>528</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>648</x>
+     <y>834</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBoxMaxPowerBeginMomentFiveLaba</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>updateData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>351</x>
+     <y>583</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>736</x>
+     <y>838</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBoxMaxPowerCentralMomentFiveLaba</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>updateData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>383</x>
+     <y>617</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>826</x>
+     <y>838</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBoxLambda</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>updateData()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>398</x>
+     <y>676</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>902</x>
+     <y>836</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>updateData()</slot>
+  <slot>generateData()</slot>
+ </slots>
+</ui>
